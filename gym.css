@@ -16,6 +16,9 @@ html{
         flex-direction: column;
         text-align: center;
     }
+    .text{
+        font-size: 38%;
+    }
 }
 @media(max-width:688px){
     html{
@@ -28,6 +31,9 @@ html{
     .flexbox1{
         flex-direction: column;
         text-align: center;
+    }
+    .text{
+        font-size: 25%;
     }
 }
 
@@ -244,6 +250,7 @@ nav a:hover{
     letter-spacing: 0.5rem;
     text-align: center;
 }
+    
     
 
 
