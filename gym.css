@@ -159,6 +159,12 @@ nav a:hover{
    -webkit-background-clip: text;
    -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
+
+@media only screen and (max-width:580px){
+    .text{
+        font-size: 75%;
+    }
+}
 @keyframes animate {
     0% {
       background-position: -500%;
