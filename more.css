@@ -1,0 +1,229 @@
+html{
+    font-size: 100%;
+
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 75%;
+    }
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .container1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .int{
+        flex-direction: column;
+        text-align: center;
+    }
+    .inter{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+@media(max-width:688px){
+    html{
+        font-size: 55%;
+    }
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .container1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .int{
+        flex-direction: column;
+        text-align: center;
+    }
+    .inter{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    background-color: rgb(205, 168, 245);
+    font-size: 1.4rem;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    font-family: cursive;
+   
+}
+.container > div > img{
+    height: 16rem;
+    padding:2rem;
+    text-align: center;
+    
+
+}
+
+.container1{
+    display: flex;
+    text-align: center;
+    background-color: rgb(205, 168, 245);
+    font-size: 1.4rem;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    font-family: cursive;
+   
+}
+.container1 > div > img{
+    height: 16rem;
+    padding: 2rem;
+    text-align: center;
+    
+}
+.btn{
+    text-decoration: none;
+    color: rgba(222, 130, 18, 0.997);
+}
+
+.interiors{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.int{
+    display: flex;
+    text-align: center;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    
+}
+.int > div >img{
+    padding: 0.25rem;
+}
+
+.inter{
+    display: flex;
+    text-align: center;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+}
+.inter > div >img{
+    padding: 0.25rem;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  h1 {
+    color: #333;
+    font-family: tahoma;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 50rem;
+    
+  }
+  
+  h1 span {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .message {
+    background-color: rgb(142, 76, 241);
+    color: #272525;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 1rem;
+    top: 0.2rem;
+    left: 21rem;
+    animation: openclose 5s ease-in-out infinite;
+    text-align: center;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: tahoma;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 230px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 230px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 285px;
+    }
+    95% {
+      top: -9rem;
+      width: 285px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
