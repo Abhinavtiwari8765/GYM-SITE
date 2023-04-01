@@ -1,5 +1,9 @@
 html{
     font-size: 100%;
+    background-image: url(form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
     
    
 }
@@ -20,11 +24,13 @@ html{
     font-weight: bold;
     text-align: center;
     font-size: 2rem;
+    color: rgb(193, 42, 42);
+    
 }
 
 .form{
     text-align: center;
-    background-image: url(form.jpg);
+   /* background-image: url(form.jpg);*/
     
     
     
