@@ -19,6 +19,14 @@ html{
     .text{
         font-size: 38%;
     }
+    .flexbox img{
+        height: 25rem;
+        width: 32rem;
+    }
+    .flexbox1 img{
+        height: 25rem;
+        width: 32rem;
+    }
 }
 @media(max-width:688px){
     html{
@@ -35,7 +43,16 @@ html{
     .text{
         font-size: 25%;
     }
+    .flexbox img{
+        height: 25rem;
+        width: 32rem;
+    }
+    .flexbox1 img{
+        height: 25rem;
+        width: 32rem;
+    }
 }
+
 
 /*.heading{
     text-align: center;
