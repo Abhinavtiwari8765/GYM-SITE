@@ -60,7 +60,7 @@ html{
 .container{
     display: flex;
     text-align: center;
-    background-color: rgb(205, 168, 245);
+    background-color: rgb(193, 183, 205);
     font-size: 1.4rem;
     margin-right: 0.1rem;
     margin-left: 0.1rem;
@@ -78,7 +78,7 @@ html{
 .container1{
     display: flex;
     text-align: center;
-    background-color: rgb(205, 168, 245);
+    background-color: rgb(193, 183, 205);
     font-size: 1.4rem;
     margin-right: 0.1rem;
     margin-left: 0.1rem;
@@ -228,4 +228,7 @@ html{
       width: 0;
       text-indent: 0;
     }
+  }
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   }
