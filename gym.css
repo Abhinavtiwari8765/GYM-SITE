@@ -67,7 +67,7 @@ html{
 
 .heading h1{
     margin: auto;
-    font-size: 6rem;
+    font-size: 6.1rem;
     animation: lights 5s 750ms linear infinite;
     text-align: center;
     font-weight: bold;
