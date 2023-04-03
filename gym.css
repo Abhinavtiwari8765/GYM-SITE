@@ -2,8 +2,10 @@ html{
     font-size: 100%;
     background-color: black;
     color: white;
-   
+    
 }
+
+
 @media(max-width:998px){
     html{
         font-size: 75%;
@@ -11,25 +13,26 @@ html{
     .flexbox{
         flex-direction: column;
         text-align: center;
+        
+        
     }
     .flexbox1{
         flex-direction: column;
         text-align: center;
+       
+       
     }
     .text{
         font-size: 38%;
     }
-    .flexbox img{
-        height: 25rem;
-        width: 32rem;
+    .image{
+        width: 100%;
     }
-    .flexbox1 img{
-        height: 25rem;
-        width: 32rem;
-    }
+    
     .navigation nav a{
         font-size: 2.5rem;
     }
+
 }
 @media(max-width:688px){
     html{
@@ -46,18 +49,11 @@ html{
     .text{
         font-size: 25%;
     }
-    .flexbox img{
-        height: 25rem;
-        width: 32rem;
-    }
-    .flexbox1 img{
-        height: 25rem;
-        width: 32rem;
-    }
     .navigation nav a{
         font-size: 2.5rem;
     }
 }
+
 
 
 /*.heading{
@@ -71,7 +67,7 @@ html{
 
 .heading h1{
     margin: auto;
-    font-size: 4rem;
+    font-size: 6rem;
     animation: lights 5s 750ms linear infinite;
     text-align: center;
     font-weight: bold;
@@ -173,7 +169,7 @@ nav a:hover{
     text-align: center;
     width: 100%;
     max-width: 100rem;
-    font-size: 5.5vw;
+    font-size: 4.6vw;
     font-weight: bold;
     background: linear-gradient(90deg, #23ddaf,silver, #d8308f);
    background-repeat: no-repeat;
@@ -224,7 +220,8 @@ nav a:hover{
     text-align: center;
 }
 .flexbox > div > img{
-    height: 16rem;
+    height: 20rem;
+    width: 27rem;
     padding: 2rem;
     border-radius: 1rem;
     text-align: center;
@@ -237,7 +234,8 @@ nav a:hover{
     text-align: center;
 }
 .flexbox1 > div > img{
-    height: 16rem;
+    height: 20rem;
+    width: 27rem;
     padding: 2rem;
     border-radius: 1rem;
     text-align: center;
