@@ -27,6 +27,9 @@ html{
         height: 25rem;
         width: 32rem;
     }
+    .navigation nav a{
+        font-size: 2.5rem;
+    }
 }
 @media(max-width:688px){
     html{
@@ -50,6 +53,9 @@ html{
     .flexbox1 img{
         height: 25rem;
         width: 32rem;
+    }
+    .navigation nav a{
+        font-size: 2.5rem;
     }
 }
 
