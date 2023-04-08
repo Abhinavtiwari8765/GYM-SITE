@@ -2,6 +2,7 @@ html{
     font-size: 100%;
     background-color: black;
     color: white;
+    overflow-x: hidden;
     
 }
 
@@ -13,26 +14,36 @@ html{
     .flexbox{
         flex-direction: column;
         text-align: center;
+       
         
         
     }
     .flexbox1{
         flex-direction: column;
         text-align: center;
+        
        
        
     }
     .text{
         font-size: 38%;
     }
-    .image{
-        width: 100%;
-    }
     
     .navigation nav a{
         font-size: 2.5rem;
     }
-    
+    /*.flexbox > div >img{
+        min-width: 85%;
+        height: auto;
+        
+        
+        
+    }
+    .flexbox1 > div >img{
+        min-width: 85%;
+        height: auto;
+        
+    }*/
 
 }
 @media(max-width:688px){
@@ -53,9 +64,15 @@ html{
     .navigation nav a{
         font-size: 2.5rem;
     }
+    /*.flexbox > div >img{
+        min-width: 85%;
+               
+    }
+    .flexbox1 > div >img{
+        min-width: 85%;
+        
+    }*/
 }
-
-
 
 /*.heading{
     text-align: center;
@@ -217,30 +234,34 @@ nav a:hover{
 
 .flexbox{
     display: flex;
-    background-color: rgba(255, 255, 255, 0.816);
     text-align: center;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    background-color: white;
 }
 .flexbox > div > img{
     height: 65%;
-    width: 85%;
-    padding: 2rem;
-    border-radius: 1rem;
+    width: 90%;
+    padding-top: 1rem;
     text-align: center;
+   
+    
     
 }    
 
 .flexbox1{
     display: flex;
-    background-color: rgba(255, 255, 255, 0.816);
     text-align: center;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    background-color: white;
 }
 .flexbox1 > div > img{
     height: 65%;
-    width: 85%;
-    padding: 2rem;
-    border-radius: 1rem;
-    text-align: center;
+    width: 90%;
     
+    text-align: center;
+
 }
 .footer{
     font-size: 1.5rem;
@@ -278,7 +299,4 @@ nav a:hover{
     letter-spacing: 0.5rem;
     text-align: center;
 }
-    
-    
-
 
