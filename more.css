@@ -1,7 +1,7 @@
 html{
     font-size: 100%;
-    max-width:100%;
-    overflow-x:hidden;
+    max-width: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -64,16 +64,18 @@ html{
     font-size: 1.4rem;
     margin-right: 0.1rem;
     margin-left: 0.1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
 .container > div > img{
-    height: 16rem;
+    height: 65%;
+    width: 100%;
     padding:2rem;
     text-align: center;
     
 
 }
+
 
 .container1{
     display: flex;
@@ -82,18 +84,24 @@ html{
     font-size: 1.4rem;
     margin-right: 0.1rem;
     margin-left: 0.1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
 .container1 > div > img{
-    height: 16rem;
+    height: 65%;
+    width: 100%;
     padding: 2rem;
     text-align: center;
     
 }
+
+
+
+
 .btn{
     text-decoration: none;
     color: rgba(222, 130, 18, 0.997);
+    text-align: center;
 }
 
 .interiors{
@@ -110,6 +118,8 @@ html{
     
 }
 .int > div >img{
+    height: 65%;
+    width: 100%;
     padding: 0.25rem;
 }
 
@@ -120,6 +130,8 @@ html{
     margin-left: 0.1rem;
 }
 .inter > div >img{
+    height: 65%;
+    width: 100%;
     padding: 0.25rem;
 }
 
@@ -229,6 +241,7 @@ html{
       text-indent: 0;
     }
   }
-h1{
+
+  h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   }
