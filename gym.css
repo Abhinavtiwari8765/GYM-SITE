@@ -221,8 +221,8 @@ nav a:hover{
     text-align: center;
 }
 .flexbox > div > img{
-    height: 20rem;
-    width: 27rem;
+    height: 65%;
+    width: 85%;
     padding: 2rem;
     border-radius: 1rem;
     text-align: center;
@@ -235,8 +235,8 @@ nav a:hover{
     text-align: center;
 }
 .flexbox1 > div > img{
-    height: 20rem;
-    width: 27rem;
+    height: 65%;
+    width: 85%;
     padding: 2rem;
     border-radius: 1rem;
     text-align: center;
