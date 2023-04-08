@@ -32,15 +32,7 @@ html{
     .navigation nav a{
         font-size: 2.5rem;
     }
-    .flexbox > div >img{
-        min-width: 85%;
-        
-        
-    }
-    .flexbox1 > div >img{
-        min-width: 85%;
-        
-    }
+    
 
 }
 @media(max-width:688px){
@@ -60,15 +52,6 @@ html{
     }
     .navigation nav a{
         font-size: 2.5rem;
-    }
-    .flexbox > div >img{
-        min-width: 85%;
-        
-        
-    }
-    .flexbox1 > div >img{
-        min-width: 85%;
-        
     }
 }
 
